@@ -16,6 +16,7 @@ function createAndAppendTodo(todo){
 
     let todoElement = document.createElement("li");
     todoElement.classList.add("todo-item-container" ,"d-flex", "d-row");
+    // console.log(todoElement);
     todoItemsContainerEle.appendChild(todoElement);
 
     let inputElement = document.createElement("input");
